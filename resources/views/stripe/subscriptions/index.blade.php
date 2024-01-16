@@ -101,7 +101,7 @@ input:checked + .slider:before {
                                 <tr>
                                     <td>{{ $subscription['plan_name'] }}</td>
                                     <td>{{ $subscription['name'] }}</td>
-                                    <td>{{ $subscription['price']}}</td>
+                                    <td>$ {{ $subscription['price']}}</td>
                                     <td>{{ $subscription['quantity'] }}</td>
                                     <td>{{ $subscription['status'] }}</td>
                                     <td>{{ $subscription['next_pay_date'] }}</td>

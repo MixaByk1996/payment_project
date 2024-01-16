@@ -39,7 +39,7 @@
 
 
                     <form action="{{ route('single.charge') }}" method="POST" id="subscribe-form">
-
+                        <label for="amount">Payment Amount</label> <br>
                         <input type="number" name="amount" id="amount" class="form-control"> <br>
                         <label for="card-holder-name form-control">Card Holder Name</label> <br>
                         <input id="card-holder-name" type="text" class="form-control">
